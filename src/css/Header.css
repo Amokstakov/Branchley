@@ -1,0 +1,42 @@
+.custom-nav-bg {
+	min-height:20px;	
+}
+
+.navbar-brand>img {
+	height:30px;
+	-webkit-filter: invert(100%);
+}
+
+.navbar-brand>img:hover {
+	-webkit-filter: invert(0%)
+}
+
+.navbar-brand {
+	font-size: 20px;
+	color:white !important
+}
+
+.navbar:hover {
+  	-moz-transition: all .1s ease-in;
+  	-o-transition: all .1s ease-in;
+  	-webkit-transition: all .1s ease-in;
+  	transition: all .1s ease-in;
+  	background-color: white;
+  	opacity: 1;
+}
+
+.nav-link {
+	color:white !important
+}
+
+.navbar:hover .navbar-brand {
+	color:black !important;
+}
+
+.navbar:hover .navbar-brand>img {
+	-webkit-filter: invert(0%)
+}
+
+.navbar:hover .nav-link {
+	color:black !important;
+}

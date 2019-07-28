@@ -1,0 +1,13 @@
+.SearchBox {
+	position: absolute;
+	top:30%;
+	left:32px;
+	max-width: 450px;
+	color:white;
+}
+
+.m{
+	font-weight:bold;
+	color:white;
+	font-size: 40px;
+}

@@ -1,0 +1,11 @@
+.BackImg {
+  height:500px;
+  background-image: url("C:\Users\Alexander.Moksyakov\Desktop\WebDev\bootstrapre\src\imgs\education_back_img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Full_Back {
+	background-color: #ebebeb;
+}
