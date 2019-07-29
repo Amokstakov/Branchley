@@ -2,8 +2,6 @@
 
 ## Available Scripts
 
-I am changing a branch!
-
 ### `npm start`
 
 Runs the app in the development mode.<br>
