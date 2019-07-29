@@ -8,12 +8,12 @@
 }
 
 .navbar-brand>img:hover {
-	-webkit-filter: invert(0%)
+	-webkit-filter: invert(0%);
 }
 
 .navbar-brand {
 	font-size: 20px;
-	color:white !important
+	color:white !important;
 }
 
 .navbar:hover {
@@ -26,7 +26,7 @@
 }
 
 .nav-link {
-	color:white !important
+	color:white !important;
 }
 
 .navbar:hover .navbar-brand {
@@ -34,7 +34,7 @@
 }
 
 .navbar:hover .navbar-brand>img {
-	-webkit-filter: invert(0%)
+	-webkit-filter: invert(0%);
 }
 
 .navbar:hover .nav-link {

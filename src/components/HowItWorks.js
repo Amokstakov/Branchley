@@ -1,5 +1,4 @@
 import React from 'react'
-import faker from'faker'
 
 
 import { Container, Col, Row, Carousel, Card, Button, CardDeck} from 'react-bootstrap'
@@ -13,7 +12,7 @@ const HowItWorks = () => {
 					  <Carousel.Item >
 					  	<CardDeck>
 						  <Card>
-						    <Card.Img variant="top" src={faker.image.avatar()} style={{width:'80%',margin:'auto',padding:'5%'}}/>
+						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}}/>
 						    <Card.Body style={{textAlign:'center'}}>
 						      <Card.Title>User_Name_1</Card.Title>
 						      <Card.Text style={{margin:'auto'}}>
@@ -26,7 +25,7 @@ const HowItWorks = () => {
 						    </Card.Footer>
 						  </Card>
 						  <Card>
-						    <Card.Img variant="top" src={faker.image.avatar()} style={{width:'80%',margin:'auto',padding:'5%'}} />
+						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}} />
 						    <Card.Body style={{textAlign:'center'}}>
 						      <Card.Title>User_Name_2</Card.Title>
 						      <Card.Text>
@@ -39,7 +38,7 @@ const HowItWorks = () => {
 						    </Card.Footer>
 						  </Card>
 						  <Card>
-						    <Card.Img variant="top" src={faker.image.avatar()} style={{width:'80%',margin:'auto',padding:'5%'}}/>
+						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}}/>
 						    <Card.Body style={{textAlign:'center'}}>
 						      <Card.Title>User_Name_3</Card.Title>
 						      <Card.Text>
@@ -57,7 +56,7 @@ const HowItWorks = () => {
 					  <Carousel.Item >
 					  	<CardDeck>
 						  <Card>
-						    <Card.Img variant="top" src={faker.image.avatar()} style={{width:'80%',margin:'auto',padding:'5%'}}/>
+						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}}/>
 						    <Card.Body style={{textAlign:'center'}}>
 						      <Card.Title>User_Name_4</Card.Title>
 						      <Card.Text>
@@ -70,7 +69,7 @@ const HowItWorks = () => {
 						    </Card.Footer>
 						  </Card>
 						  <Card>
-						    <Card.Img variant="top" src={faker.image.avatar()}  style={{width:'80%',margin:'auto',padding:'5%'}}/>
+						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}}/>
 						    <Card.Body style={{textAlign:'center'}}>
 						      <Card.Title>User_Name_5</Card.Title>
 						      <Card.Text>
@@ -83,7 +82,7 @@ const HowItWorks = () => {
 						    </Card.Footer>
 						  </Card>
 						  <Card>
-						    <Card.Img variant="top" src={faker.image.avatar()} style={{width:'80%',margin:'auto',padding:'5%'}}/>
+						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}}/>
 						    <Card.Body style={{textAlign:'center'}}>
 						      <Card.Title>User_Name_6</Card.Title>
 						      <Card.Text>
