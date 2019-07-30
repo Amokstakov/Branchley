@@ -19,7 +19,8 @@ const Header = () => {
 	      				<Nav.Link href="#features">Tutors</Nav.Link>
 	      				<Nav.Link href="#pricing">Find a Tutor Near </Nav.Link>
 	    			</Nav>
-	    			<NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+
+	    			{/*<NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         				<NavDropdown.Item href="#action/3.1">Shit</NavDropdown.Item>
         				<NavDropdown.Item href="#action/3.2">More Shit</NavDropdown.Item>
         				<NavDropdown.Item href="#action/3.3">Most Shit</NavDropdown.Item>
@@ -34,7 +35,7 @@ const Header = () => {
 					    	<i className="sign in alternate icon" ></i>
 					    	Log In
 					    </Nav.Link>
-					</Nav>	
+					</Nav>*/}
 	    		</Navbar.Collapse>
 	    	</Container>
  		</Navbar>

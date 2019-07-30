@@ -8,7 +8,7 @@
     overflow: hidden;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-between;;
     align-items: center;
 }
 
@@ -46,7 +46,7 @@
 
 /*Contact Info section*/
 .contactSection {
-    width: 25%;
+    width: 35%;
     text-align: center;
     margin-right: 4rem;
     font-family: 'Roboto Condensed', sans-serif;
@@ -61,4 +61,16 @@
         font-size: 14px;
         text-transform: uppercase;
     }
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        justify-content: space-around;
+    }
+    .contactSection {
+        width: 60%;
+    }
+    .popularSubjects {
+        display: none;
+    }
+}
 
