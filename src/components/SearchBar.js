@@ -8,12 +8,13 @@ const SearchBar = () => {
 		<div className="SearchBox">
 			<h1>
 				<span className="m">
-					Tutor's Branching Out
+					Tutors Branching Out
 				</span>
 				<br />
 					To Find People like You
 			</h1>
-			<InputGroup className="mb-3">
+
+			{/*<InputGroup className="mb-3">
     			<FormControl
     				style={{padding:'7%',fontWeight:'bold'}}
       				placeholder="Search a Subject you Need"
@@ -26,7 +27,7 @@ const SearchBar = () => {
       					variant="primary">Find a Tutor
       				</Button>
     			</InputGroup.Append>
- 			</InputGroup>
+			</InputGroup>*/}
 		</div>
 	)
 }

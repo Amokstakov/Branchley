@@ -4,6 +4,9 @@
 	left:32px;
 	max-width: 450px;
 	color:white;
+	padding: 15px;
+	border-radius: 12px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .m{

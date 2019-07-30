@@ -7,6 +7,7 @@ function AboutUs() {
     return (
         <Container fluid={true}>
             <div className="aboutUs">
+                <i className="big circular info icon"></i>
                 <h1>About Branchley</h1>
                 <p>Branchley is an association of tutors working to change how we learn.</p>
                  <p>Under guidance of tutors who have excelled beyond just academics, we strive to impart students 
