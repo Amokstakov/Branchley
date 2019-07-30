@@ -40,3 +40,13 @@
 .navbar:hover .nav-link {
 	color:black !important;
 }
+
+/*Slide in for navigation bar items*/
+@keyframes slideIn {
+    from {
+        /*NULL*/
+    }
+    to {
+        transform: translateX(0);
+    }
+}

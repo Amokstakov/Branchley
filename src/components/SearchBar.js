@@ -5,7 +5,7 @@ import {Form, Button, InputGroup,FormControl} from 'react-bootstrap'
 
 const SearchBar = () => {
 	return(
-		<div className="SearchBox">
+		<div className="SearchBox flipInX">
 			<h1>
 				<span className="m">
 					Tutors Branching Out
