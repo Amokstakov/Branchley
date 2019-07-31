@@ -1,5 +1,7 @@
 import React, {Component} from "react"
 
+import '../css/RequestForm.css'
+
 class RequestForm extends Component {
     constructor() {
         super()
@@ -9,7 +11,8 @@ class RequestForm extends Component {
             grade : "",
             email : "",
             phone : "",
-            contactPreference : ""
+            contactPreference : "",
+            message : ""
         }
 
         this.handleChange = this.handleChange.bind(this)
@@ -27,99 +30,114 @@ class RequestForm extends Component {
     render() {
         return (
             <form className="requestForm">
-                <label>
-                    Name:
-                    <input 
-                        type="text"
-                        name="name"
-                        value={this.state.name}
-                        onChange={this.handleChange}
-                        placeholder="Your Name"
-                        required
-                    />
-                </label>
-
-                <label>
-                    Subject: 
-                    <select 
-                        name="subject"
-                        value={this.state.subject}
-                        onChange={this.handleChange}
-                        required
-                    >
-                        <option></option>
-                        <option>Mathematics</option>
-                        <option>Chemistry</option>
-                        <option>Physics</option>
-                        <option>Science</option>
-                        <option>Programming</option>
-                        <option>English</option>
-                        <option>Engineering Courses</option>
-                        <option>Resume/Career Services</option>
-                        <option>Other</option>
-                    </select>
-                </label>
-
-                <label>
-                    Grade/Level:
-                    <select
-                        name="grade"
-                        value={this.state.grade}
-                        onChange={this.handleChange}
-                        required
-                    >
-                        <option></option>
-                        <option>Primary (1-8)</option>
-                        <option>Secondary (9-12)</option>
-                        <option>Post Secondary (Univ./College)</option>
-                    </select>
-                </label>
-
-                <label>
-                    Contact Preference:
+                <h1 className="formTitle">Request a Lesson!</h1>
+                <div className="leftSide">
                     <label>
-                        <input
-                            type="radio"
-                            name="contactPreference"
-                            value="isPhoneContact"
-                            checked={this.state.contactPreference === "isPhoneContact"}
+                        Name:
+                        <input 
+                            type="text"
+                            name="name"
+                            value={this.state.name}
                             onChange={this.handleChange}
-                        /> By Phone?
+                            placeholder="Your Name"
+                            required
+                        />
                     </label>
+
                     <label>
-                        <input
-                            type="radio"
-                            name="contactPreference"
-                            value="isPhoneContact"
-                            checked={this.state.contactPreference === "isPhoneContact"}
+                        Subject: 
+                        <select 
+                            name="subject"
+                            value={this.state.subject}
                             onChange={this.handleChange}
-                        /> Or By Email?
+                            required
+                        >
+                            <option>**Please enter subject(s)**</option>
+                            <option>Mathematics</option>
+                            <option>Chemistry</option>
+                            <option>Physics</option>
+                            <option>Science</option>
+                            <option>Programming</option>
+                            <option>English</option>
+                            <option>Engineering Courses</option>
+                            <option>Resume/Career Services</option>
+                            <option>Multiple</option>
+                        </select>
                     </label>
-                </label>
 
-                <label>
-                    <input 
-                        type="text"
-                        name="email"
-                        value={this.state.email}
-                        onChange={this.handleChange}
-                        placeholder="Email Address"
-                    />
-                </label>
+                    <label>
+                        Grade/Level:
+                        <select
+                            name="grade"
+                            value={this.state.grade}
+                            onChange={this.handleChange}
+                            required
+                        >
+                            <option>**Please enter grade level**</option>
+                            <option>Primary (1-8)</option>
+                            <option>Secondary (9-12)</option>
+                            <option>Post Secondary (Univ./College)</option>
+                        </select>
+                    </label>
 
-                <label>
-                    <input 
-                        type="text"
-                        name="phone"
-                        value={this.state.phone}
-                        onChange={this.handleChange}
-                        placeholder="Phone Number"
-                    />
-                </label>
+                
+                    <label>
+                        Contact Preference:
+                        <br />
+                        <label>
+                            <input
+                                type="radio"
+                                name="contactPreference"
+                                value="isPhoneContact"
+                                checked={this.state.contactPreference === "isPhoneContact"}
+                                onChange={this.handleChange}
+                            /> By Phone?
+                        </label>
+                        <br />
+                        <label>
+                            <input
+                                type="radio"
+                                name="contactPreference"
+                                value="isEmailContact"
+                                checked={this.state.contactPreference === "isEmailContact"}
+                                onChange={this.handleChange}
+                            /> Or By Email?
+                        </label>
+                    </label>
+                </div>
 
-                <textarea 
-                    name="message"
-                />
+                <div className="rightSide">
+                    <label>
+                        <input 
+                            type="text"
+                            name="email"
+                            value={this.state.email}
+                            onChange={this.handleChange}
+                            placeholder="Email Address"
+                        />
+                    </label>
+
+                    <label>
+                        <input 
+                            type="text"
+                            name="phone"
+                            value={this.state.phone}
+                            onChange={this.handleChange}
+                            placeholder="Phone Number"
+                        />
+                    </label>
+
+                    <label>
+                        <textarea 
+                            name="message"
+                            value={this.state.message}
+                            onChange={this.state.handleChange}
+                            placeholder="(Optional) Tell us any other details you wish to include or just say hello :)"
+                        />
+                    </label>
+
+                    <input type="submit" value="Submit"></input>
+                </div>
             </form>
         ) 
     }
