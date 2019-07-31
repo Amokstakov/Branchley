@@ -27,7 +27,40 @@
 
 .nav-link {
 	color:white !important;
+	margin: 0 10px;
+	font-size: 15px;
+	font-weight: 600;
+	transition: all 250ms;
 }
+	.nav-link:hover {
+		letter-spacing: 2px;
+		font-size: 18px;
+	}
+.navItems {
+	transform: translateX(100);
+	animation: slideInX 500ms ease-in-out;
+}
+
+/*Pseudo elements for animation later
+.nav-link::before, .navLink::after {
+    content: '';
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 2px;
+    background-color: darkorange;
+    left: 0;
+    transform: scaleX(0);
+    transition: all ease-in 300ms;
+}
+.nav-link::before {
+    top: 0;
+    transform-origin: left;
+}
+.nav-link::after {
+    bottom: 0;
+    transform-origin: right;
+}*/
 
 .navbar:hover .navbar-brand {
 	color:black !important;

@@ -14,12 +14,12 @@ const Header = () => {
 	    		</Navbar.Brand>
 	    		<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 	    		<Navbar.Collapse id="responsive-navbar-nav">
-	    			<Nav className="mr-auto">
-	      				<Nav.Link className="navLink" href="#">Home</Nav.Link>
-	      				<Nav.Link className="navLink" href="#">About Us</Nav.Link>
-	      				<Nav.Link className="navLink" href="#">Our Tutors</Nav.Link>
-						<Nav.Link className="navLink" href="#">How It Works</Nav.Link>
-						<Nav.Link className="navLink" href="#">Lesson Request</Nav.Link>
+	    			<Nav className="mr-auto navItems">
+	      				<Nav.Link href="#">Home</Nav.Link>
+	      				<Nav.Link href="#">About Us</Nav.Link>
+	      				<Nav.Link href="#">Our Tutors</Nav.Link>
+						<Nav.Link href="#">How It Works</Nav.Link>
+						<Nav.Link href="#">Lesson Request</Nav.Link>
 	    			</Nav>
 
 	    			{/*<NavDropdown title="Dropdown" id="collasible-nav-dropdown">

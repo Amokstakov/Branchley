@@ -4,9 +4,9 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 40px 20px;
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 10px 10px 10px rgb(190, 190, 190);
     border-radius: 15px;
     background-color: white;
 }
