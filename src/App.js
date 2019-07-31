@@ -8,6 +8,7 @@ import Subjects from './components/Subjects'
 import AboutUs from './components/AboutUs'
 import MidPage1 from './components/MidPage_1'
 import HowItWorks from './components/HowItWorks'
+import RequestForm from './components/RequestForm'
 import Footer from './components/Footer'
 
 class App extends React.Component {
@@ -23,6 +24,7 @@ class App extends React.Component {
         <AboutUs />
         <MidPage1 />
         <HowItWorks/>
+        <RequestForm />
         <Footer />
       </div>
     )
