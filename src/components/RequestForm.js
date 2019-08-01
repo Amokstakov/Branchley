@@ -23,14 +23,15 @@ class RequestForm extends Component {
         this.setState({
             [name] : value
         })
-
-
     }
 
     render() {
         return (
             <form className="requestForm">
-                <h1 className="formTitle">Request a Lesson!</h1>
+                <div className="formTitle">
+                    <h1>Get Stared with Branchley!</h1>
+                    <p>Online lesson request form</p>
+                </div>
                 <div className="leftSide">
                     <label>
                         Name:
@@ -108,6 +109,7 @@ class RequestForm extends Component {
 
                 <div className="rightSide">
                     <label>
+                        Email Address:
                         <input 
                             type="text"
                             name="email"
@@ -118,6 +120,7 @@ class RequestForm extends Component {
                     </label>
 
                     <label>
+                        Phone Number:
                         <input 
                             type="text"
                             name="phone"
@@ -131,12 +134,12 @@ class RequestForm extends Component {
                         <textarea 
                             name="message"
                             value={this.state.message}
-                            onChange={this.state.handleChange}
-                            placeholder="(Optional) Tell us any other details you wish to include or just say hello :)"
+                            onChange={this.handleChange}
+                            placeholder="Any other details?"
                         />
                     </label>
 
-                    <input type="submit" value="Submit"></input>
+                    <button className="submitBtn" type="submit"><span>Submit</span></button>
                 </div>
             </form>
         ) 

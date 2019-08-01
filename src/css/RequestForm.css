@@ -2,6 +2,7 @@
 
 .requestForm {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     width: 70%;
     background-color: #007bff;
     color: white;
@@ -17,8 +18,11 @@
 .formTitle {
     width: 100%;
     text-align: center;
-    padding-bottom: 20px;
 }
+    .formTitle p {
+        text-transform: uppercase;
+        padding-bottom: 35px;
+    }
 
 .leftSide, .rightSide {
     width: 50%;
@@ -26,8 +30,68 @@
     flex-direction: column;
 }
 .requestForm input, .requestForm select, .requestForm textarea {
-    margin: 5px 8px;
+    margin: 8px;
     border: 0;
     padding: 4px;
     border-radius: 5px;
+}
+.requestForm textarea {
+    width: 90%;
+    min-height: 110px;
+}
+
+/*Submit button*/
+.submitBtn {
+    width: 50%;
+    height: 4rem;
+    display: inline-block;
+    align-self: center;
+    margin-top: 15px;
+    cursor: pointer;
+    vertical-align: middle;
+    background-color: #ffd800;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+}
+    .submitBtn:hover {
+        background-color: #1ede37;
+    }
+
+/*Submit button animation feature*/
+.submitBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+    .submitBtn span:after {
+        content: '\00bb';
+        font-size: 30px;
+        position: absolute;
+        opacity: 0;
+        top: -10px;
+        right: -20px;
+        transition: 0.5s;
+    }
+    .submitBtn:hover span {
+        padding-right: 25px;
+    }
+    
+        .submitBtn:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+@media only screen and (max-width: 1100px) {
+    .requestForm {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .leftSide, .rightSide {
+        width: 100%;
+        padding-left: 40px;
+    }
 }
