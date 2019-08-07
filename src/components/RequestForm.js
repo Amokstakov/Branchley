@@ -53,7 +53,7 @@ class RequestForm extends Component {
                     </label>
 
                     <label>
-                        Subject: 
+                        Subject:
                         <select 
                             name="subject"
                             value={this.state.subject}
@@ -74,9 +74,10 @@ class RequestForm extends Component {
                     </label>
 
                     <label>
-                        Grade/Level:
+                        Grade:
                         <select
                             name="grade"
+                            class="gradeField"
                             value={this.state.grade}
                             onChange={this.handleChange}
                             required
