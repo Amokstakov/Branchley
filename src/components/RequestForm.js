@@ -16,6 +16,7 @@ class RequestForm extends Component {
         }
 
         this.handleChange = this.handleChange.bind(this)
+        this.handleSubmit = this.handleSubmit.bind(this)
     }
 
     handleChange(event) {
@@ -25,9 +26,15 @@ class RequestForm extends Component {
         })
     }
 
+    handleSubmit(event) {
+        const {name, subject, grade, email, phone, contactPreference, message} = this.state
+        event.preventDefault()
+        console.log(this.state)
+    }
+
     render() {
         return (
-            <form className="requestForm">
+            <form className="requestForm" action="requestHandler.php" onSubmit={this.handleSubmit}>
                 <div className="formTitle">
                     <h1>Get Stared with Branchley!</h1>
                     <p>Online lesson request form</p>
@@ -53,7 +60,7 @@ class RequestForm extends Component {
                             onChange={this.handleChange}
                             required
                         >
-                            <option>**Please enter subject(s)**</option>
+                            <option>**Please choose subject(s)**</option>
                             <option>Mathematics</option>
                             <option>Chemistry</option>
                             <option>Physics</option>
@@ -74,7 +81,7 @@ class RequestForm extends Component {
                             onChange={this.handleChange}
                             required
                         >
-                            <option>**Please enter grade level**</option>
+                            <option>**Please choose grade level**</option>
                             <option>Primary (1-8)</option>
                             <option>Secondary (9-12)</option>
                             <option>Post Secondary (Univ./College)</option>
@@ -92,6 +99,7 @@ class RequestForm extends Component {
                                 value="isPhoneContact"
                                 checked={this.state.contactPreference === "isPhoneContact"}
                                 onChange={this.handleChange}
+                                required
                             /> By Phone?
                         </label>
                         <br />
@@ -111,11 +119,13 @@ class RequestForm extends Component {
                     <label>
                         Email Address:
                         <input 
+                            id="emailField"
                             type="text"
                             name="email"
                             value={this.state.email}
                             onChange={this.handleChange}
                             placeholder="Email Address"
+                            required = {this.state.contactPreference === "isEmailContact"}
                         />
                     </label>
 
@@ -127,6 +137,7 @@ class RequestForm extends Component {
                             value={this.state.phone}
                             onChange={this.handleChange}
                             placeholder="Phone Number"
+                            required = {this.state.contactPreference === "isPhoneContact"}
                         />
                     </label>
 
