@@ -41,7 +41,7 @@
 	animation: slideInX 500ms ease-in-out;
 }
 
-/*Pseudo elements for animation later
+
 .nav-link::before, .navLink::after {
     content: '';
     position: absolute;
@@ -60,7 +60,7 @@
 .nav-link::after {
     bottom: 0;
     transform-origin: right;
-}*/
+}
 
 .navbar:hover .navbar-brand {
 	color:black !important;

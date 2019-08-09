@@ -22,11 +22,11 @@ const Header = () => {
 	    		<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 	    		<Navbar.Collapse id="responsive-navbar-nav">
 	    			<Nav className="mr-auto navItems">
-	      				<Link to="./App#tag2" style={{ color:'orange' }}>Home</Link>
-	      				<Link to="/Subjects#tag">About Us</Link>
-	      				<Link to="/HowItWorks#tag1">Our Tutors</Link>
-						<Link to="/MidPage_1#tag4">How It Works</Link>
-						<Link to="/RequestForm#tag3">Lesson Request</Link>
+	      				<Link className="nav-link" to="./App#tag2" style={{ color:'orange' }}>Home</Link>
+	      				<Link className="nav-link" to="/Subjects#tag">About Us</Link>
+	      				<Link className="nav-link" to="/HowItWorks#tag1">Our Tutors</Link>
+						<Link className="nav-link" to="/MidPage_1#tag4">How It Works</Link>
+						<Link className="nav-link" to="/RequestForm#tag3">Lesson Request</Link>
 	    			</Nav>
 
 	    			{/*<NavDropdown title="Dropdown" id="collasible-nav-dropdown">
