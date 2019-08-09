@@ -6,7 +6,7 @@
     width: 70%;
     background-color: #007bff;
     color: white;
-    margin: 40px auto;
+    margin: 60px auto;
     padding: 40px 20px;
     border-radius: 20px;
     display: flex;
@@ -28,6 +28,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 .requestForm input, .requestForm select, .requestForm textarea {
     margin: 8px;
@@ -35,6 +36,9 @@
     padding: 4px;
     border-radius: 5px;
 }
+    .requestForm .gradeField {
+       margin-left: 17px;
+    }
 .requestForm textarea {
     width: 90%;
     min-height: 110px;

@@ -4,6 +4,13 @@ import logo from '../imgs/education.png'
 
 import {Navbar, Nav, Form, FormControl, Button, Container, NavDropdown } from 'react-bootstrap'
 
+
+import { NavLink } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
+
+
+
+
 const Header = () => {
 	return(
 		<Navbar collapseOnSelect expand="md" className="custom-nav-bg">
@@ -15,11 +22,11 @@ const Header = () => {
 	    		<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 	    		<Navbar.Collapse id="responsive-navbar-nav">
 	    			<Nav className="mr-auto navItems">
-	      				<Nav.Link href="#">Home</Nav.Link>
-	      				<Nav.Link href="#">About Us</Nav.Link>
-	      				<Nav.Link href="#">Our Tutors</Nav.Link>
-						<Nav.Link href="#">How It Works</Nav.Link>
-						<Nav.Link href="#">Lesson Request</Nav.Link>
+	      				<Link to="./App#tag2" style={{ color:'orange' }}>Home</Link>
+	      				<Link to="/Subjects#tag">About Us</Link>
+	      				<Link to="/HowItWorks#tag1">Our Tutors</Link>
+						<Link to="/MidPage_1#tag4">How It Works</Link>
+						<Link to="/RequestForm#tag3">Lesson Request</Link>
 	    			</Nav>
 
 	    			{/*<NavDropdown title="Dropdown" id="collasible-nav-dropdown">

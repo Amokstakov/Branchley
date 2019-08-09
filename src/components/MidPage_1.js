@@ -6,7 +6,7 @@ import {Container, Row, Col, Button} from 'react-bootstrap'
 
 const MidPage1 = () => {
 	return (
-		<Container fluid={true} style={{padding: '64px 50px 0 50px'}}>
+		<Container fluid={true} style={{padding: '64px 50px 0 50px'}} id="tag4">
 			<Row>
 				<Col style={{backgroundColor:'white',paddingBottom:'20px'}}>
 					<div style={{margin:'auto',textAlign:'center',marginTop:'-3%'}}>

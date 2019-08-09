@@ -1,106 +1,171 @@
 import React from 'react'
+import '../css/HowItWorks.css'
 
+import pic1 from '../imgs/Sasha.jpg'
+import pic2 from '../imgs/Rahul.jpg'
+import pic3 from '../imgs/Jo.jpg'	
 
-import { Container, Col, Row, Carousel, Card, Button, CardDeck} from 'react-bootstrap'
+import { Container, Col, Row, Carousel, Card, Button, CardDeck, Image} from 'react-bootstrap'
 
 const HowItWorks = () => {
 	return (
-		<Container fluid={true} style={{padding:'0 50px 0 50px'}}>
+		<div id="#tag1">
 			<Row>
-				<Col style={{backgroundColor:'#ebebeb',padding:'20px'}}>
-					<Carousel indicators={false} controls={false}>
-					  <Carousel.Item >
-					  	<CardDeck>
-						  <Card>
-						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}}/>
-						    <Card.Body style={{textAlign:'center'}}>
-						      <Card.Title>User_Name_1</Card.Title>
-						      <Card.Text style={{margin:'auto'}}>
-						        This is a wider card with supporting text below as a natural lead-in to
-						        additional content. This content is a little bit longer.
-						      </Card.Text>
-						    </Card.Body>
-						    <Card.Footer>
-						      <small className="text-muted">Last updated 3 mins ago</small>
-						    </Card.Footer>
-						  </Card>
-						  <Card>
-						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}} />
-						    <Card.Body style={{textAlign:'center'}}>
-						      <Card.Title>User_Name_2</Card.Title>
-						      <Card.Text>
-						        This card has supporting text below as a natural lead-in to additional
-						        content.{' '}
-						      </Card.Text>
-						    </Card.Body>
-						    <Card.Footer>
-						      <small className="text-muted">Last updated 3 mins ago</small>
-						    </Card.Footer>
-						  </Card>
-						  <Card>
-						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}}/>
-						    <Card.Body style={{textAlign:'center'}}>
-						      <Card.Title>User_Name_3</Card.Title>
-						      <Card.Text>
-						        This is a wider card with supporting text below as a natural lead-in to
-						        additional content. This card has even longer content than the first to
-						        show that equal height action.
-						      </Card.Text>
-						    </Card.Body>
-						    <Card.Footer>
-						      <small className="text-muted">Last updated 3 mins ago</small>
-						    </Card.Footer>
-						  </Card>
-						</CardDeck>
-					  </Carousel.Item>
-					  <Carousel.Item >
-					  	<CardDeck>
-						  <Card>
-						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}}/>
-						    <Card.Body style={{textAlign:'center'}}>
-						      <Card.Title>User_Name_4</Card.Title>
-						      <Card.Text>
-						        This is a wider card with supporting text below as a natural lead-in to
-						        additional content. This content is a little bit longer.
-						      </Card.Text>
-						    </Card.Body>
-						    <Card.Footer>
-						      <small className="text-muted">Last updated 3 mins ago</small>
-						    </Card.Footer>
-						  </Card>
-						  <Card>
-						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}}/>
-						    <Card.Body style={{textAlign:'center'}}>
-						      <Card.Title>User_Name_5</Card.Title>
-						      <Card.Text>
-						        This card has supporting text below as a natural lead-in to additional
-						        content.{' '}
-						      </Card.Text>
-						    </Card.Body>
-						    <Card.Footer>
-						      <small className="text-muted">Last updated 3 mins ago</small>
-						    </Card.Footer>
-						  </Card>
-						  <Card>
-						    <Card.Img variant="top" src="" style={{width:'80%',margin:'auto',padding:'5%'}}/>
-						    <Card.Body style={{textAlign:'center'}}>
-						      <Card.Title>User_Name_6</Card.Title>
-						      <Card.Text>
-						        This is a wider card with supporting text below as a natural lead-in to
-						        additional content. This card has even longer content than the first to
-						        show that equal height action.
-						      </Card.Text>
-						    </Card.Body>
-						    <Card.Footer>
-						      <small className="text-muted">Last updated 3 mins ago</small>
-						    </Card.Footer>
-						  </Card>
-						</CardDeck>
-					  </Carousel.Item>
-					</Carousel>
+				<Col style={{backgroundColor:'#ebebeb'}}>
+					<div className="HIWBackImg">
+					</div>
 				</Col>
 			</Row>
-		</Container>
+			<Row>
+				<div className="HIWTitle">
+					Meet just some of the great  
+					tutors Branchley offers
+				</div>
+			</Row>
+			<Container style={{backgroundColor:'white'}}>
+				<Row style={{textAlign:'center',marginTop:'5%',marginBottom:'5%',paddingTop:'3%'}}>
+					<Col xs={6} md={4}>
+	      				<Image src={pic1} roundedCircle  />
+	    			</Col>
+	    			<Col xs={6} md={4}>
+	      				<Image src={pic2} roundedCircle  />
+	    			</Col>
+	    			<Col xs={6} md={4}>
+	      				<Image src={pic3} roundedCircle  />
+	    			</Col>
+				</Row>
+				<Row style={{textAlign:'center'}}>
+					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
+						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+							<div>
+								<i className="big book icon" style={{float:'left'}}></i>
+							</div>
+							<div>
+								<h2>Alex Moks</h2>
+								BEng and MSc in Artificial Intelligence
+							</div>
+							<div style={{paddingTop:'2%'}}>
+								<div>
+									<i className="big pencil icon" style={{float:'left'}}></i>
+								</div>
+								<div>
+									All level S.T.E.M Subjects, Languages, Programming
+								</div>
+							</div>
+						</div>
+					</Col>
+					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
+						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+							<div>
+								<i className="big book icon" style={{float:'left'}}></i>
+							</div>
+							<div>	
+								<h2>Rahul Eswar</h2>
+								BEng and MSc in Electrical Engineering
+							</div>
+							<div style={{paddingTop:'2%'}}>
+								<div>
+									<i className="big pencil icon" style={{float:'left'}}></i>
+								</div>
+								<div>
+									All level S.T.E.M Subjects and Languages
+								</div>
+							</div>
+						</div>
+					</Col>
+					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
+						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+							<div>
+								<i className="big book icon" style={{float:'left'}}></i>
+							</div>
+							<div>
+								<h2>Josef Asfaw</h2>
+								BEng and Manufacturing Engineer
+							</div>
+							<div style={{paddingTop:'2%'}}>
+								<div>
+									<i className="big pencil icon" style={{float:'left'}}></i>
+								</div>
+								<div>
+									All level S.T.E.M Subjects and Languages
+								</div>
+							</div>
+						</div>
+					</Col>
+				</Row>
+				<Row style={{textAlign:'center',marginTop:'5%',marginBottom:'5%',paddingTop:'3%'}}>
+					<Col xs={6} md={4}>
+	      				<Image src={pic1} roundedCircle  />
+	    			</Col>
+	    			<Col xs={6} md={4}>
+	      				<Image src={pic2} roundedCircle  />
+	    			</Col>
+	    			<Col xs={6} md={4}>
+	      				<Image src={pic3} roundedCircle  />
+	    			</Col>
+				</Row>
+				<Row style={{textAlign:'center'}}>
+					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
+						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+							<div>
+								<i className="big book icon" style={{float:'left'}}></i>
+							</div>
+							<div>
+								<h2>Alex Moks</h2>
+								BEng and MSc in Artificial Intelligence
+							</div>
+							<div style={{paddingTop:'2%'}}>
+								<div>
+									<i className="big pencil icon" style={{float:'left'}}></i>
+								</div>
+								<div>
+									All level S.T.E.M Subjects, Languages, Programming
+								</div>
+							</div>
+						</div>
+					</Col>
+					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
+						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+							<div>
+								<i className="big book icon" style={{float:'left'}}></i>
+							</div>
+							<div>	
+								<h2>Rahul Eswar</h2>
+								BEng and MSc in Electrical Engineering
+							</div>
+							<div style={{paddingTop:'2%'}}>
+								<div>
+									<i className="big pencil icon" style={{float:'left'}}></i>
+								</div>
+								<div>
+									All level S.T.E.M Subjects and Languages
+								</div>
+							</div>
+						</div>
+					</Col>
+					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
+						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+							<div>
+								<i className="big book icon" style={{float:'left'}}></i>
+							</div>
+							<div>
+								<h2>Josef Asfaw</h2>
+								BEng and Manufacturing Engineer
+							</div>
+							<div style={{paddingTop:'2%'}}>
+								<div>
+									<i className="big pencil icon" style={{float:'left'}}></i>
+								</div>
+								<div>
+									All level S.T.E.M Subjects and Languages
+								</div>
+							</div>
+						</div>
+					</Col>
+				</Row>
+			</Container>
+		</div>
+
 	)
 }
 

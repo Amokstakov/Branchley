@@ -11,11 +11,13 @@ import HowItWorks from './components/HowItWorks'
 import RequestForm from './components/RequestForm'
 import Footer from './components/Footer'
 
+import {Router, Route} from 'react-router'
+
 class App extends React.Component {
 
   render() {
     return (
-      <div className="Full_Back">
+      <div className="Full_Back" id="tag2">
         <div className="BackImg">
           <Header/>
           <SearchBar />
