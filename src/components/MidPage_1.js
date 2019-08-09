@@ -30,7 +30,7 @@ const MidPage1 = () => {
 				</Col>
 			</Row>
 			<Row style={{borderBottom:'2px solid #ebebeb'}}>
-				<Col style={{backgroundColor:'white'}}>
+				<Col xs={12} md={3} style={{backgroundColor:'white'}}>
 					<div style={{padding:'25% 0 45% 0'}}>
 						<div style={{textAlign:'center'}}>
 							<i className="big circular blue certificate icon"></i>
@@ -43,7 +43,7 @@ const MidPage1 = () => {
 						</div>
 					</div>
 				</Col>
-				<Col style={{backgroundColor:'white'}}>
+				<Col xs={12} md={3} style={{backgroundColor:'white'}}>
 					<div style={{padding:'25% 0 45% 0'}}>
 						<div style={{textAlign:'center'}}>
 							<i className="big circular blue shield alternate icon"></i>
@@ -56,7 +56,7 @@ const MidPage1 = () => {
 						</div>
 					</div>
 				</Col>
-				<Col style={{backgroundColor:'white'}}>
+				<Col xs={12} md={3}style={{backgroundColor:'white'}}>
 					<div style={{padding:'25% 0 45% 0'}}>
 						<div style={{textAlign:'center'}}>
 							<i className="big circular blue globe icon"></i>
@@ -69,7 +69,7 @@ const MidPage1 = () => {
 						</div>	
 					</div>
 				</Col>
-				<Col style={{backgroundColor:'white'}}>
+				<Col xs={12} md={3} style={{backgroundColor:'white'}}>
 					<div style={{padding:'25% 0 45% 0'}}>
 						<div style={{textAlign:'center'}}>
 							<i className="big circular blue dollar sign icon"></i>
@@ -103,7 +103,7 @@ const MidPage1 = () => {
 				</Col>
 			</Row>
 			<Row>
-				<Col style={{backgroundColor:'white',padding:'5% 0 5% 0'}}>
+				<Col xs={12} md={6} style={{backgroundColor:'white',padding:'5% 0 5% 0'}}>
 					<div style={{width:'100%',padding:'0 10% 0 10%'}}>
 						<div style={{float:'left'}}>
 							<i className="big circular blue comment icon"></i>
@@ -118,7 +118,7 @@ const MidPage1 = () => {
 						</div>
 					</div>
 				</Col>
-				<Col style={{backgroundColor:'white',padding:'5% 0 5% 0'}}>
+				<Col xs={12} md={6} style={{backgroundColor:'white',padding:'5% 0 5% 0'}}>
 					<div style={{width:'100%', padding:'0 10% 0 10%'}}>
 						<div style={{float:'left'}}>
 							<i className="big circular blue book icon"></i>
@@ -135,7 +135,7 @@ const MidPage1 = () => {
 				</Col>
 			</Row>
 			<Row style={{borderBottom:'2px solid #ebebeb'}}>
-				<Col style={{backgroundColor:'white',padding:'5% 0 5% 0'}}>
+				<Col xs={12} md={6} style={{backgroundColor:'white',padding:'5% 0 5% 0'}}>
 					<div style={{width:'100%', padding:'0 10% 0 10%'}}>
 						<div style={{float:'left'}}>
 							<i className="big circular blue envelope icon"></i>
@@ -150,7 +150,7 @@ const MidPage1 = () => {
 						</div>
 					</div>
 				</Col>
-				<Col style={{backgroundColor:'white',padding:'5% 0 5% 0'}}>
+				<Col xs={12} md={6} style={{backgroundColor:'white',padding:'5% 0 5% 0'}}>
 					<div style={{width:'100%', padding:'0 10% 0 10%'}}>
 						<div style={{float:'left'}}>
 							<i className="big circular blue lightbulb icon"></i>

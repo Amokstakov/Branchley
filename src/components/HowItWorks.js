@@ -4,6 +4,9 @@ import '../css/HowItWorks.css'
 import pic1 from '../imgs/Sasha.jpg'
 import pic2 from '../imgs/Rahul.jpg'
 import pic3 from '../imgs/Jo.jpg'	
+import pic4 from '../imgs/Kyle.jpg'
+import pic5 from '../imgs/Mila.jpg'
+import pic6 from '../imgs/Hannah.jpg'	
 
 import { Container, Col, Row, Carousel, Card, Button, CardDeck, Image} from 'react-bootstrap'
 
@@ -17,45 +20,38 @@ const HowItWorks = () => {
 				</Col>
 			</Row>
 			<Row>
-				<div className="HIWTitle">
-					Meet just some of the great  
-					tutors Branchley offers
-				</div>
+				<Col xs={12} md={12}>
+					<div className="HIWTitle">
+						Meet just some of the great  
+						tutors Branchley offers
+					</div>
+				</Col>
 			</Row>
 			<Container style={{backgroundColor:'white'}}>
 				<Row style={{textAlign:'center',marginTop:'5%',marginBottom:'5%',paddingTop:'3%'}}>
-					<Col xs={6} md={4}>
-	      				<Image src={pic1} roundedCircle  />
-	    			</Col>
-	    			<Col xs={6} md={4}>
-	      				<Image src={pic2} roundedCircle  />
-	    			</Col>
-	    			<Col xs={6} md={4}>
-	      				<Image src={pic3} roundedCircle  />
-	    			</Col>
-				</Row>
-				<Row style={{textAlign:'center'}}>
-					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
-						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+					<Col xs={12} md={4}>
+	      				<Image fluid={true} src={pic1} roundedCircle  />
+	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>
 							</div>
 							<div>
 								<h2>Alex Moks</h2>
-								BEng and MSc in Artificial Intelligence
+								BEng and MSc in A.I
 							</div>
 							<div style={{paddingTop:'2%'}}>
 								<div>
 									<i className="big pencil icon" style={{float:'left'}}></i>
 								</div>
 								<div>
-									All level S.T.E.M Subjects, Languages, Programming
+									All level S.T.E.M Subjects and Languages
 								</div>
 							</div>
 						</div>
-					</Col>
-					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
-						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+	    			</Col>
+	    			<Col xs={12} md={4}>
+	      				<Image fluid={true} src={pic2} roundedCircle  />
+	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'	}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>
 							</div>
@@ -72,9 +68,10 @@ const HowItWorks = () => {
 								</div>
 							</div>
 						</div>
-					</Col>
-					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
-						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+	    			</Col>
+	    			<Col xs={12} md={4}>
+	      				<Image fluid={true} src={pic3} roundedCircle  />
+	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>
 							</div>
@@ -91,47 +88,38 @@ const HowItWorks = () => {
 								</div>
 							</div>
 						</div>
-					</Col>
-				</Row>
-				<Row style={{textAlign:'center',marginTop:'5%',marginBottom:'5%',paddingTop:'3%'}}>
-					<Col xs={6} md={4}>
-	      				<Image src={pic1} roundedCircle  />
-	    			</Col>
-	    			<Col xs={6} md={4}>
-	      				<Image src={pic2} roundedCircle  />
-	    			</Col>
-	    			<Col xs={6} md={4}>
-	      				<Image src={pic3} roundedCircle  />
 	    			</Col>
 				</Row>
-				<Row style={{textAlign:'center'}}>
-					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
-						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+				<Row style={{textAlign:'center',marginTop:'5%',marginBottom:'5%',marginTop:'3%'}}>
+					<Col xs={12} md={4}>
+	      				<Image fluid={true} src={pic4} roundedCircle  />
+	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>
 							</div>
 							<div>
-								<h2>Alex Moks</h2>
-								BEng and MSc in Artificial Intelligence
+								<h2>Kyle Mermer</h2>
+								B.A in History
 							</div>
 							<div style={{paddingTop:'2%'}}>
 								<div>
 									<i className="big pencil icon" style={{float:'left'}}></i>
 								</div>
 								<div>
-									All level S.T.E.M Subjects, Languages, Programming
+									Languages and Elementary Subjects
 								</div>
 							</div>
 						</div>
-					</Col>
-					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
-						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+	    			</Col>
+	    			<Col xs={12} md={4}>
+	      				<Image fluid={true} src={pic5} roundedCircle  />
+	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'	}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>
 							</div>
 							<div>	
-								<h2>Rahul Eswar</h2>
-								BEng and MSc in Electrical Engineering
+								<h2>Mila Buradonski</h2>
+								BSc in Chemistry
 							</div>
 							<div style={{paddingTop:'2%'}}>
 								<div>
@@ -142,15 +130,16 @@ const HowItWorks = () => {
 								</div>
 							</div>
 						</div>
-					</Col>
-					<Col style={{backgroundColor:'white',border:'2px solid #ebebeb',height:'100%'}} className="SubjectCol">
-						<div style={{width:'100%',overflow:'hidden',padding:'5%'}}>
+	    			</Col>
+	    			<Col xs={12} md={4}>
+	      				<Image fluid={true} src={pic6} roundedCircle  />
+	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>
 							</div>
 							<div>
-								<h2>Josef Asfaw</h2>
-								BEng and Manufacturing Engineer
+								<h2>Hannah Patel</h2>
+								BA in Mathematics
 							</div>
 							<div style={{paddingTop:'2%'}}>
 								<div>
@@ -161,7 +150,7 @@ const HowItWorks = () => {
 								</div>
 							</div>
 						</div>
-					</Col>
+	    			</Col>
 				</Row>
 			</Container>
 		</div>
