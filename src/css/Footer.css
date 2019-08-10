@@ -8,8 +8,9 @@
     overflow: hidden;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;;
+    justify-content: space-between;
     align-items: center;
+    padding: 0;
 }
 
 /*For popular subjects column*/
@@ -37,11 +38,9 @@
         }
 
 /*Branchley Logo on footer*/
-.footerLogo {
-    cursor: pointer;
-    border: 2px solid white;
-    height: 45px;
-    width: 45px;
+.footerLogo img {
+    height: 80px;
+    width: auto;
 }
 
 /*Contact Info section*/

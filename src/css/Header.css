@@ -3,12 +3,8 @@
 }
 
 .navbar-brand>img {
-	height:30px;
-	-webkit-filter: invert(100%);
-}
-
-.navbar-brand>img:hover {
-	-webkit-filter: invert(0%);
+	height: 60px;
+	width: auto;
 }
 
 .navbar-brand {

@@ -76,7 +76,7 @@ const HowItWorks = () => {
 								<i className="big book icon" style={{float:'left'}}></i>
 							</div>
 							<div>
-								<h2>Josef Asfaw</h2>
+								<h2>Joseph Asfaw</h2>
 								BEng and Manufacturing Engineer
 							</div>
 							<div style={{paddingTop:'2%'}}>

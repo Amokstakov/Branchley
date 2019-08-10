@@ -34,7 +34,7 @@ class RequestForm extends Component {
 
     render() {
         return (
-            <form className="requestForm" action="requestHandler.php" onSubmit={this.handleSubmit}>
+            <form className="requestForm" method="post" action="requestHandler.php">
                 <div className="formTitle" id="tag3">
                     <h1>Get Stared with Branchley!</h1>
                     <p>Online lesson request form</p>

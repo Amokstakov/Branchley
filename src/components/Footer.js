@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 
+import logo from '../imgs/branchley-logo.png'
+
 import '../css/Footer.css'
 
 class Footer extends Component {
@@ -19,7 +21,7 @@ class Footer extends Component {
                 </div>
 
                 <div className="footerLogo">
-                    <a href="#"><img src="" alt="" /></a>
+                    <a href="#"><img src={logo} alt="logo" /></a>
                 </div>
 
                 <div className="contactSection">
