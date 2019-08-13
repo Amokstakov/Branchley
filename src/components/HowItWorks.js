@@ -12,7 +12,7 @@ import { Container, Col, Row, Carousel, Card, Button, CardDeck, Image} from 'rea
 
 const HowItWorks = () => {
 	return (
-		<div id="#tag1">
+		<div id="tag1">
 			<Row>
 				<Col style={{backgroundColor:'#ebebeb'}}>
 					<div className="HIWBackImg">
@@ -30,7 +30,7 @@ const HowItWorks = () => {
 			<Container style={{backgroundColor:'white'}}>
 				<Row style={{textAlign:'center',marginTop:'5%',marginBottom:'5%',paddingTop:'3%'}}>
 					<Col xs={12} md={4}>
-	      				<Image fluid={true} src={pic1} roundedCircle  />
+	      				<Image fluid={true} src={pic1} roundedCircle style={{paddingBottom:'5%'}}  />
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>
@@ -42,7 +42,7 @@ const HowItWorks = () => {
 							<div style={{paddingTop:'2%'}}>
 								<div>
 									<i className="big pencil icon" style={{float:'left'}}></i>
-								</div>
+								</div>	
 								<div>
 									All level S.T.E.M Subjects and Languages
 								</div>
@@ -50,7 +50,7 @@ const HowItWorks = () => {
 						</div>
 	    			</Col>
 	    			<Col xs={12} md={4}>
-	      				<Image fluid={true} src={pic2} roundedCircle  />
+	      				<Image fluid={true} src={pic2} roundedCircle style={{paddingBottom:'5%'}} />
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'	}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>
@@ -70,7 +70,7 @@ const HowItWorks = () => {
 						</div>
 	    			</Col>
 	    			<Col xs={12} md={4}>
-	      				<Image fluid={true} src={pic3} roundedCircle  />
+	      				<Image fluid={true} src={pic3} roundedCircle style={{paddingBottom:'5%'}} />
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>
@@ -90,9 +90,9 @@ const HowItWorks = () => {
 						</div>
 	    			</Col>
 				</Row>
-				<Row style={{textAlign:'center',marginTop:'5%',marginBottom:'5%',marginTop:'3%'}}>
+				<Row style={{textAlign:'center',marginBottom:'5%',marginTop:'3%',paddingBottom:'2%'}}>
 					<Col xs={12} md={4}>
-	      				<Image fluid={true} src={pic4} roundedCircle  />
+	      				<Image fluid={true} src={pic4} roundedCircle style={{paddingBottom:'5%'}}/>
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>
@@ -112,7 +112,7 @@ const HowItWorks = () => {
 						</div>
 	    			</Col>
 	    			<Col xs={12} md={4}>
-	      				<Image fluid={true} src={pic5} roundedCircle  />
+	      				<Image fluid={true} src={pic5} roundedCircle style={{paddingBottom:'5%'}} />
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'	}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>
@@ -132,7 +132,7 @@ const HowItWorks = () => {
 						</div>
 	    			</Col>
 	    			<Col xs={12} md={4}>
-	      				<Image fluid={true} src={pic6} roundedCircle  />
+	      				<Image fluid={true} src={pic6} roundedCircle style={{paddingBottom:'5%'}}  />
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>
 								<i className="big book icon" style={{float:'left'}}></i>

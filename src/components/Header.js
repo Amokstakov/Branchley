@@ -21,7 +21,7 @@ const Header = () => {
 	    		<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 	    		<Navbar.Collapse id="responsive-navbar-nav">
 	    			<Nav className="mr-auto navItems">
-	      				<Link className="nav-link" to="./App#tag2" style={{ color:'orange' }}>Home</Link>
+	      				<Link className="nav-link" to="/App#tag2" style={{ color:'orange' }}>Home</Link>
 	      				<Link className="nav-link" to="/Subjects#tag">About Us</Link>
 	      				<Link className="nav-link" to="/HowItWorks#tag1">Our Tutors</Link>
 						<Link className="nav-link" to="/MidPage_1#tag4">How It Works</Link>
