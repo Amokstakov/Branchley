@@ -40,7 +40,7 @@
        margin-left: 18px;
     }
     .requestForm select {
-        width: 17rem;
+        width: 17.5rem;
     }
 .requestForm textarea {
     width: 90%;
@@ -103,8 +103,11 @@
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 440px) {
+    .requestForm select {
+        width: 90%;
+    }
     .requestForm .gradeField {
-        margin-left: initial;
-     }
+        margin-left: 8px;
+    }
 }

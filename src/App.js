@@ -14,7 +14,6 @@ import Footer from './components/Footer'
 import {Router, Route} from 'react-router'
 
 class App extends React.Component {
-
   render() {
     return (
       <div className="Full_Back" id="tag2">

@@ -27,14 +27,35 @@ class RequestForm extends Component {
     }
 
     handleSubmit(event) {
-        const {name, subject, grade, email, phone, contactPreference, message} = this.state
         event.preventDefault()
-        console.log(this.state)
+        const nodemailer = require('nodemailer')
+        const {name, subject, grade, email, phone, contactPreference, message} = this.state
+
+        async function main() {
+            let transporter = nodemailer.createTransport({
+                host: "mail.branchley.com",
+                port: 465,
+                secure: true,
+                auth: {
+                    user: "admin@branchley.com",
+                    pass: "@Guelph2019"
+                }
+            });
+
+            let info = await transporter.sendMail({
+                from: "Branchley Server <admin@branchley.com>",
+                to: "reswar@uoguelph.ca, amoksyak@uoguelph.ca",
+                subject: "Branchley Tutoring Request -",
+                text: "just testing"
+            });
+            console.log("Message sent: %s", info.messageId);
+        }
+        main().catch(console.error);
     }
 
     render() {
         return (
-            <form className="requestForm" method="post" action="requestHandler.php">
+            <form className="requestForm" method="post" action="send">
                 <div className="formTitle" id="tag3">
                     <h1>Get Stared with Branchley!</h1>
                     <p>Online lesson request form</p>
@@ -77,7 +98,7 @@ class RequestForm extends Component {
                         Grade:
                         <select
                             name="grade"
-                            class="gradeField"
+                            className="gradeField"
                             value={this.state.grade}
                             onChange={this.handleChange}
                             required
