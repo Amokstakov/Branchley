@@ -128,7 +128,7 @@ const MidPage1 = () => {
 								Modern teaching tactics with sources
 							</div>
 							<div>
-								All our tutors will provice with your resources from their teachings
+								All our tutors will provide you with your resources from their teachings
 							</div>
 						</div>
 					</div>

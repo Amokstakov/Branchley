@@ -55,7 +55,7 @@ class RequestForm extends Component {
 
     render() {
         return (
-            <form className="requestForm" method="post" action="send">
+            <form className="requestForm" onSubmit={this.handleSubmit}>
                 <div className="formTitle" id="tag3">
                     <h1>Get Stared with Branchley!</h1>
                     <p>Online lesson request form</p>
