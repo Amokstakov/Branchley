@@ -185,7 +185,7 @@ const MidPage1 = () => {
 							Find a suitable skilled tutor that fits your needs
 						</div>
 						<div style={{paddingTop:'2%'}}>
-							<Button variant="primary" size = 'lg'>Post Request</Button>
+							<Button variant="primary" size = 'lg' onClick={() => window.location.href='/RequestForm#tag3'}>Post Request</Button>
 						</div>
 					</div>
 				</Col>
