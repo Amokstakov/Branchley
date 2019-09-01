@@ -1,5 +1,6 @@
+
 .SearchBox {
-	position: absolute;
+	position: relative;
 	top:30%;
 	left:32px;
 	max-width: 450px;
