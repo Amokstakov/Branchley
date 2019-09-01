@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/MainPage1.css';
+import '../css/MidPage1.css';
 import ConnectedImg from '../imgs/Connected.png'
 
 import {Container, Row, Col, Button} from 'react-bootstrap'
@@ -31,53 +31,53 @@ const MidPage1 = () => {
 			</Row>
 			<Row style={{borderBottom:'2px solid #ebebeb'}}>
 				<Col xs={12} md={3} style={{backgroundColor:'white'}}>
-					<div style={{padding:'25% 0 45% 0'}}>
-						<div style={{textAlign:'center'}}>
+					<div className="valueCard">
+						<div>
 							<i className="big circular blue certificate icon"></i>
 						</div>
-						<div style={{textAlign:'center',paddingTop:'5%'}}>
+						<div>
 							<h4>Talented Tutors</h4>
 						</div>
-						<div style={{textAlign:'center',paddingTop:'5%'}}>
+						<div>
 							Find expert and certified tutors from the Branchley ecosystem
 						</div>
 					</div>
 				</Col>
 				<Col xs={12} md={3} style={{backgroundColor:'white'}}>
-					<div style={{padding:'25% 0 45% 0'}}>
-						<div style={{textAlign:'center'}}>
+					<div className="valueCard">
+						<div>
 							<i className="big circular blue shield alternate icon"></i>
 						</div>
-						<div style={{textAlign:'center',paddingTop:'5%'}}>
+						<div>
 							<h4>Verify and Review</h4>
 						</div>
-						<div style={{textAlign:'center',paddingTop:'5%'}}>
+						<div>
 							Carefully verify and review each tutor to see if they fit your needs
 						</div>
 					</div>
 				</Col>
-				<Col xs={12} md={3}style={{backgroundColor:'white'}}>
-					<div style={{padding:'25% 0 45% 0'}}>
-						<div style={{textAlign:'center'}}>
+				<Col xs={12} md={3} style={{backgroundColor:'white'}}>
+					<div className="valueCard">
+						<div>
 							<i className="big circular blue globe icon"></i>
 						</div>
-						<div style={{textAlign:'center',paddingTop:'5%'}}>
+						<div>
 							<h4>Worldwide Connections</h4>
 						</div>
-						<div style={{textAlign:'center',paddingTop:'5%'}}>
+						<div>
 							We focus on connecting tutors with passionate and talented individuals
 						</div>	
 					</div>
 				</Col>
 				<Col xs={12} md={3} style={{backgroundColor:'white'}}>
-					<div style={{padding:'25% 0 45% 0'}}>
-						<div style={{textAlign:'center'}}>
+					<div className="valueCard">
+						<div>
 							<i className="big circular blue dollar sign icon"></i>
 						</div>
-						<div style={{textAlign:'center',paddingTop:'5%'}}>
+						<div>
 							<h4>Affordable Prices</h4>
 						</div>
-						<div style={{textAlign:'center',paddingTop:'5%'}}>
+						<div>
 							Branchley's payment system depends on expert service, and experience
 						</div>
 					</div>

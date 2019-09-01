@@ -14,7 +14,7 @@ const HowItWorks = () => {
 	return (
 		<div id="tag1">
 			<Row>
-				<Col style={{backgroundColor:'#ebebeb'}}>
+				<Col>
 					<div className="HIWBackImg">
 					</div>
 				</Col>
@@ -29,7 +29,7 @@ const HowItWorks = () => {
 			</Row>
 			<Container style={{backgroundColor:'white'}}>
 				<Row style={{textAlign:'center',marginTop:'5%',marginBottom:'5%',paddingTop:'3%'}}>
-					<Col xs={12} md={4}>
+					<Col className="tutorCard" xs={12} md={4}>
 	      				<Image fluid={true} src={pic1} roundedCircle style={{paddingBottom:'5%'}}  />
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>
@@ -49,7 +49,7 @@ const HowItWorks = () => {
 							</div>
 						</div>
 	    			</Col>
-	    			<Col xs={12} md={4}>
+	    			<Col className="tutorCard" xs={12} md={4}>
 	      				<Image fluid={true} src={pic2} roundedCircle style={{paddingBottom:'5%'}} />
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'	}}>
 							<div>
@@ -69,7 +69,7 @@ const HowItWorks = () => {
 							</div>
 						</div>
 	    			</Col>
-	    			<Col xs={12} md={4}>
+	    			<Col className="tutorCard" xs={12} md={4}>
 	      				<Image fluid={true} src={pic3} roundedCircle style={{paddingBottom:'5%'}} />
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>
@@ -90,8 +90,8 @@ const HowItWorks = () => {
 						</div>
 	    			</Col>
 				</Row>
-				<Row style={{textAlign:'center',marginBottom:'5%',marginTop:'3%',paddingBottom:'2%'}}>
-					<Col xs={12} md={4}>
+				<Row style={{textAlign:'center',marginBottom:'5%',paddingBottom:'2%'}}>
+					<Col className="tutorCard" xs={12} md={4}>
 	      				<Image fluid={true} src={pic4} roundedCircle style={{paddingBottom:'5%'}}/>
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>
@@ -111,7 +111,7 @@ const HowItWorks = () => {
 							</div>
 						</div>
 	    			</Col>
-	    			<Col xs={12} md={4}>
+	    			<Col className="tutorCard" xs={12} md={4}>
 	      				<Image fluid={true} src={pic5} roundedCircle style={{paddingBottom:'5%'}} />
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'	}}>
 							<div>
@@ -131,7 +131,7 @@ const HowItWorks = () => {
 							</div>
 						</div>
 	    			</Col>
-	    			<Col xs={12} md={4}>
+	    			<Col className="tutorCard" xs={12} md={4}>
 	      				<Image fluid={true} src={pic6} roundedCircle style={{paddingBottom:'5%'}}  />
 	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
 							<div>

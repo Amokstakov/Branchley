@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width:100%;
+  width: 100%;
 }
 
 .HIWTitle {
@@ -15,4 +15,8 @@
 	text-align: center;
 	font-weight: bold;
 	padding-top: 5%;
+}
+
+.tutorCard {
+	margin-top: 15px;
 }
