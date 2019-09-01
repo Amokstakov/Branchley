@@ -28,7 +28,7 @@ class Footer extends Component {
                     <h4>Questions for Us?</h4>
                     <p>Email: branchley@gmail.com</p>
                     <p>Phone: 519-760-6272</p>
-                    <p>Main Office: 53 Yarmouth Street, Guelph ON N1H 4G2</p>
+                    <p>Main Office: 55 Yarmouth Street, Guelph ON N1H 4G2</p>
                 </div>
             </footer>
         )

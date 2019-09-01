@@ -4,6 +4,8 @@ import ConnectedImg from '../imgs/Connected.png'
 
 import {Container, Row, Col, Button} from 'react-bootstrap'
 
+import { HashLink as Link } from 'react-router-hash-link';
+
 const MidPage1 = () => {
 	return (
 		<Container fluid={true} style={{padding: '64px 50px 0 50px'}} id="tag4">
@@ -185,7 +187,9 @@ const MidPage1 = () => {
 							Find a suitable skilled tutor that fits your needs
 						</div>
 						<div style={{paddingTop:'2%'}}>
-							<Button variant="primary" size = 'lg' onClick={() => window.location.href='/RequestForm#tag3'}>Post Request</Button>
+							<Button variant="primary" size='lg' onClick={() => window.location.href='/RequestForm#tag3'}>
+								<Link className="nav-link" to="/RequestForm#tag3">Post Request</Link>
+							</Button>
 						</div>
 					</div>
 				</Col>
