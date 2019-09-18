@@ -10,6 +10,7 @@ import MidPage1 from './components/MidPage_1'
 import HowItWorks from './components/HowItWorks'
 import RequestForm from './components/RequestForm'
 import Footer from './components/Footer'
+import Pricing from './components/Pricing'
 
 import {Router, Route} from 'react-router'
 
@@ -26,6 +27,7 @@ class App extends React.Component {
         <MidPage1 />
         <HowItWorks />
         {/*<RequestForm />*/}
+        <Pricing/>
         <Footer />
       </div>
     )
