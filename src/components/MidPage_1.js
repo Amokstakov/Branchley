@@ -175,6 +175,8 @@ const MidPage1 = () => {
 					</div>
 				</Col>
 			</Row>
+
+			{/*
 			<Row>
 				<Col style={{backgroundColor:'white'}}>
 					<div style={{textAlign:'center',padding:'3%'}}>
@@ -194,6 +196,8 @@ const MidPage1 = () => {
 					</div>
 				</Col>
 			</Row>
+			*/}
+
 			<Row>
 				<Col >
 					<div style={{textAlign:'center',padding:'7% 0 4% 0'}}>

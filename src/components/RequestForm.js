@@ -1,8 +1,11 @@
 import React, {Component} from "react"
 
+import axios from 'axios'
+
 import '../css/RequestForm.css'
 
 class RequestForm extends Component {
+
     constructor() {
         super()
         this.state = {
@@ -26,31 +29,22 @@ class RequestForm extends Component {
         })
     }
 
-    handleSubmit(event) {
+    async handleSubmit(event) {
         event.preventDefault()
-        const nodemailer = require('nodemailer')
-        const {name, subject, grade, email, phone, contactPreference, message} = this.state
+        console.log('button pressed')
 
-        async function main() {
-            let transporter = nodemailer.createTransport({
-                host: "mail.branchley.com",
-                port: 465,
-                secure: true,
-                auth: {
-                    user: "admin@branchley.com",
-                    pass: "@Guelph2019"
-                }
-            });
+        const {name, subject, grade, email, phone, message} = this.state
+        const contactPreference = (this.state.contactPreference == "isPhoneContact") ? "Phone" : "Email"
 
-            let info = await transporter.sendMail({
-                from: "Branchley Server <admin@branchley.com>",
-                to: "reswar@uoguelph.ca, amoksyak@uoguelph.ca",
-                subject: "Branchley Tutoring Request -",
-                text: "just testing"
-            });
-            console.log("Message sent: %s", info.messageId);
-        }
-        main().catch(console.error);
+        const form = await axios.post('/api/form', {
+            name,
+            subject,
+            grade,
+            email,
+            phone,
+            contactPreference,
+            message      
+        })
     }
 
     render() {

@@ -24,8 +24,8 @@ class App extends React.Component {
         <Subjects/>
         <AboutUs />
         <MidPage1 />
-        <HowItWorks/>
-        <RequestForm />
+        <HowItWorks />
+        {/*<RequestForm />*/}
         <Footer />
       </div>
     )
