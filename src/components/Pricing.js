@@ -53,7 +53,7 @@ const Pricing = () => {
                             <Card.Title style={{textAlign:'center'}}>Diamond Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
                                 <div style={{fontSize:'150%'}}>$260 / 10 Hours</div>
-                                <p>Our Diamond Tier package is offered for building longer relationships. Those prepared to committ will benefit from more tailored lesson plans and thorough exam prep.</p>
+                                <p>Our Diamond Tier package is offered for building longer relationships. Those prepared to commit will benefit from more tailored lesson plans and thorough exam prep.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -114,7 +114,7 @@ const Pricing = () => {
                             <Card.Title style={{textAlign:'center'}}>Diamond Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
                                 <div style={{fontSize:'150%'}}>$300 / 10 Hours</div>
-                                <p>Our Diamond Tier package is offered for building longer relationships. Those prepared to committ will benefit from more tailored lesson plans and thorough exam prep.</p>
+                                <p>Our Diamond Tier package is offered for building longer relationships. Those prepared to commit will benefit from more tailored lesson plans and thorough exam prep.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
