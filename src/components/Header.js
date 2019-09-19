@@ -26,6 +26,7 @@ const Header = () => {
 	      				<Link className="nav-link" to="/HowItWorks#tag1">Our Tutors</Link>
 						<Link className="nav-link" to="/MidPage_1#tag4">How It Works</Link>
 						{/*<Link className="nav-link" to="/RequestForm#tag3">Lesson Request</Link>*/}
+						<Link className="nav-link" to="/Pricing#tag5">Pricing Plans</Link>
 	    			</Nav>
 
 	    			{/*<NavDropdown title="Dropdown" id="collasible-nav-dropdown">

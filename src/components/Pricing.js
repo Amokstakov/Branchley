@@ -1,9 +1,10 @@
 import React from 'react'
+
 import { Row, Col, Container, Card, CardDeck } from 'react-bootstrap'
 
 const Pricing = () => {
     return(
-        <Container fluid={true} style={{padding: '64px 50px 0 50px'}} id="tag4">
+        <Container fluid={true} style={{padding: "2% 50px"}} id="tag5">
             <Row style={{borderBottom:'2px solid #ebebeb'}}>
                 <Col style={{backgroundColor:'white'}}>
                     <div className="aboutUs">
@@ -12,7 +13,7 @@ const Pricing = () => {
                     </div>
                 </Col>
             </Row>
-			<Row style={{paddingBottom:"10%"}} >
+			<Row style={{padding:"2% 50px"}} >
                 <CardDeck >
                     <Card>
                         <div style={{margin:'auto',textAlign:'center',marginTop:'-3%'}}>
@@ -22,7 +23,7 @@ const Pricing = () => {
                             <Card.Title style={{textAlign:'center'}}>Silver Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
                                 <div style={{fontSize:'150%'}}>$32 / Hour</div>
-                                <p>The classic hourly rate. This tier allows you to really gauge our services, and for clients who do not want to commit to a longer term</p>
+                                <p>The classic hourly rate. This tier allows you to really gauge our services. Built for clients who do not want to commit to a longer term.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -37,7 +38,7 @@ const Pricing = () => {
                             <Card.Title style={{textAlign:'center'}}>Gold Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
                                 <div style={{fontSize:'150%'}}>$145 / 5 Hours</div>
-                                <p>Our Gold Tier package is perfect to build longer relationships. It is perfect for tackling longer and tougher subjects and preparing for exams </p>
+                                <p>Our Gold Tier package gives clients a better deal and a dedicated tutor. It is perfect for realizing the full impact our tutors can make in helping a student excel.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -52,7 +53,7 @@ const Pricing = () => {
                             <Card.Title style={{textAlign:'center'}}>Diamond Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
                                 <div style={{fontSize:'150%'}}>$260 / 10 Hours</div>
-                                <p>Our Gold Tier package is perfect to build longer relationships. It is perfect for tackling longer and tougher subjects and preparing for exams </p>
+                                <p>Our Diamond Tier package is offered for building longer relationships. Those prepared to committ will benefit from more tailored lesson plans and thorough exam prep.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -61,7 +62,7 @@ const Pricing = () => {
                     </Card>
                 </CardDeck>
             </Row>
-            <Row style={{borderBottom:'2px solid #ebebeb',paddingBottom:'10%'}}>
+            <Row style={{borderBottom:'2px solid #ebebeb',padding:"20px 50px"}}>
                 <Col style={{backgroundColor:'white'}}>
                     <div className="aboutUs">
                         <h1>At Home Pricing Plans</h1>
@@ -69,11 +70,11 @@ const Pricing = () => {
                         <div style={{margin:'auto',textAlign:'center',}}>
                             <i className="massive circular home icon" style={{backgroundColor:'#03dbfc', textAlign:'center'}}></i>
                         </div>
-                        <p>Never leave the comofrt of your own home! Our Branchley tutors will come to your location and make sure our clients are comfortable learning</p>
+                        <p>No need to leave the comfort of your home! Our Branchley tutors will come to your location and make sure you are taken care of.</p>
                     </div>
                 </Col>
             </Row>
-			<Row style={{paddingBottom:"20%"}}>
+			<Row style={{padding:"2% 50px"}}>
                 <CardDeck >
                     <Card>
                         <div style={{margin:'auto',textAlign:'center',marginTop:'-3%'}}>
@@ -83,7 +84,7 @@ const Pricing = () => {
                             <Card.Title style={{textAlign:'center'}}>Silver Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
                                 <div style={{fontSize:'150%'}}>$36 / Hour</div>
-                                <p>The classic hourly rate. This tier allows you to really gauge our services, and for clients who do not want to commit to a longer term</p>
+                                <p>The classic hourly rate. This tier allows you to really gauge our services. Built for clients who do not want to commit to a longer term.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -98,7 +99,7 @@ const Pricing = () => {
                             <Card.Title style={{textAlign:'center'}}>Gold Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
                                 <div style={{fontSize:'150%'}}>$165 / 5 Hours</div>
-                                <p>Our Gold Tier package is perfect to build longer relationships. It is perfect for tackling longer and tougher subjects and preparing for exams </p>
+                                <p>Our Gold Tier package gives clients a better deal and a dedicated tutor. It is perfect for realizing the full impact our tutors can make in helping a student excel.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -113,7 +114,7 @@ const Pricing = () => {
                             <Card.Title style={{textAlign:'center'}}>Diamond Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
                                 <div style={{fontSize:'150%'}}>$300 / 10 Hours</div>
-                                <p>Our Gold Tier package is perfect to build longer relationships. It is perfect for tackling longer and tougher subjects and preparing for exams </p>
+                                <p>Our Diamond Tier package is offered for building longer relationships. Those prepared to committ will benefit from more tailored lesson plans and thorough exam prep.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
