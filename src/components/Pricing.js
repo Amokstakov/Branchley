@@ -12,7 +12,7 @@ const Pricing = () => {
                     </div>
                 </Col>
             </Row>
-			<Row >
+			<Row style={{paddingBottom:"10%"}} >
                 <CardDeck >
                     <Card>
                         <div style={{margin:'auto',textAlign:'center',marginTop:'-3%'}}>
@@ -61,7 +61,7 @@ const Pricing = () => {
                     </Card>
                 </CardDeck>
             </Row>
-            <Row style={{borderBottom:'2px solid #ebebeb'}}>
+            <Row style={{borderBottom:'2px solid #ebebeb',paddingBottom:'10%'}}>
                 <Col style={{backgroundColor:'white'}}>
                     <div className="aboutUs">
                         <h1>At Home Pricing Plans</h1>
@@ -73,7 +73,7 @@ const Pricing = () => {
                     </div>
                 </Col>
             </Row>
-			<Row >
+			<Row style={{paddingBottom:"20%"}}>
                 <CardDeck >
                     <Card>
                         <div style={{margin:'auto',textAlign:'center',marginTop:'-3%'}}>
