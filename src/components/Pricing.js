@@ -22,7 +22,7 @@ const Pricing = () => {
                         <Card.Body>
                             <Card.Title style={{textAlign:'center'}}>Silver Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
-                                <div style={{fontSize:'150%'}}>$32 / Hour</div>
+                                <div style={{fontSize:'150%'}}>$34 / Hour</div>
                                 <p>The classic hourly rate. This tier allows you to really gauge our services. Built for clients who do not want to commit to a longer term.</p>
                             </Card.Text>
                         </Card.Body>
@@ -37,12 +37,12 @@ const Pricing = () => {
                         <Card.Body>
                             <Card.Title style={{textAlign:'center'}}>Gold Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
-                                <div style={{fontSize:'150%'}}>$145 / 5 Hours</div>
+                                <div style={{fontSize:'150%'}}>$155 / 5 Hours</div>
                                 <p>Our Gold Tier package gives clients a better deal and a dedicated tutor. It is perfect for realizing the full impact our tutors can make in helping a student excel.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">$29/HOUR </small>   
+                        <small className="text-muted">$31/HOUR </small>   
                         </Card.Footer>
                     </Card>
                     <Card>
@@ -52,12 +52,12 @@ const Pricing = () => {
                         <Card.Body>
                             <Card.Title style={{textAlign:'center'}}>Diamond Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
-                                <div style={{fontSize:'150%'}}>$260 / 10 Hours</div>
+                                <div style={{fontSize:'150%'}}>$280 / 10 Hours</div>
                                 <p>Our Diamond Tier package is offered for building longer relationships. Those prepared to commit will benefit from more tailored lesson plans and thorough exam prep.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">$26/HOUR</small>   
+                        <small className="text-muted">$28/HOUR</small>   
                         </Card.Footer>
                     </Card>
                 </CardDeck>
@@ -83,7 +83,7 @@ const Pricing = () => {
                         <Card.Body>
                             <Card.Title style={{textAlign:'center'}}>Silver Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
-                                <div style={{fontSize:'150%'}}>$36 / Hour</div>
+                                <div style={{fontSize:'150%'}}>$38 / Hour</div>
                                 <p>The classic hourly rate. This tier allows you to really gauge our services. Built for clients who do not want to commit to a longer term.</p>
                             </Card.Text>
                         </Card.Body>
@@ -98,12 +98,12 @@ const Pricing = () => {
                         <Card.Body>
                             <Card.Title style={{textAlign:'center'}}>Gold Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
-                                <div style={{fontSize:'150%'}}>$165 / 5 Hours</div>
+                                <div style={{fontSize:'150%'}}>$175 / 5 Hours</div>
                                 <p>Our Gold Tier package gives clients a better deal and a dedicated tutor. It is perfect for realizing the full impact our tutors can make in helping a student excel.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">$33/HOUR </small>   
+                        <small className="text-muted">$35/HOUR </small>   
                         </Card.Footer>
                     </Card>
                     <Card>
@@ -113,12 +113,12 @@ const Pricing = () => {
                         <Card.Body>
                             <Card.Title style={{textAlign:'center'}}>Diamond Tier</Card.Title>
                             <Card.Text style={{textAlign:'center'}}>
-                                <div style={{fontSize:'150%'}}>$300 / 10 Hours</div>
+                                <div style={{fontSize:'150%'}}>$320 / 10 Hours</div>
                                 <p>Our Diamond Tier package is offered for building longer relationships. Those prepared to commit will benefit from more tailored lesson plans and thorough exam prep.</p>
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">$30/HOUR</small>   
+                        <small className="text-muted">$32/HOUR</small>   
                         </Card.Footer>
                     </Card>
                 </CardDeck>
