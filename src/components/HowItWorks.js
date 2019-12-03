@@ -6,7 +6,10 @@ import pic2 from '../imgs/Rahul.jpg'
 import pic3 from '../imgs/Jo.jpg'	
 import pic4 from '../imgs/Kyle.jpg'
 import pic5 from '../imgs/Mila.jpg'
-import pic6 from '../imgs/Hannah.jpg'	
+import pic6 from '../imgs/Hannah.jpg'
+import pic7 from '../imgs/Hasnain.JPG'	
+import pic8 from '../imgs/Naseem.jpg'
+import pic9 from '../imgs/Dylan.jpg'
 
 import { Container, Col, Row, Carousel, Card, Button, CardDeck, Image} from 'react-bootstrap'
 
@@ -152,6 +155,69 @@ const HowItWorks = () => {
 						</div>
 	    			</Col>
 				</Row>
+				<Row style={{textAlign:'center',marginBottom:'5%',paddingBottom:'2%'}}>
+					<Col className="tutorCard" xs={12} md={4}>
+	      				<Image fluid={true} src={pic7} roundedCircle style={{paddingBottom:'5%'}}/>
+	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
+							<div>
+								<i className="big book icon" style={{float:'left'}}></i>
+							</div>
+							<div>
+								<h2>Hasnain Raza</h2>
+								B.Eng in Engineering
+							</div>
+							<div style={{paddingTop:'2%'}}>
+								<div>
+									<i className="big pencil icon" style={{float:'left'}}></i>
+								</div>
+								<div>
+									All Science & Math Level Courses
+								</div>
+							</div>
+						</div>
+	    			</Col>
+	    			<Col className="tutorCard" xs={12} md={4}>
+	      				<Image fluid={true} src={pic8} roundedCircle style={{paddingBottom:'5%'}} />
+	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'	}}>
+							<div>
+								<i className="big book icon" style={{float:'left'}}></i>
+							</div>
+							<div>	
+								<h2>Naseem Alsadi</h2>
+								B.Eng In Computer Engineering
+							</div>
+							<div style={{paddingTop:'2%'}}>
+								<div>
+									<i className="big pencil icon" style={{float:'left'}}></i>
+								</div>
+								<div>
+									Machine Learning, Python Programming, Circuits
+								</div>
+							</div>
+						</div>
+	    			</Col>
+	    			<Col className="tutorCard" xs={12} md={4}>
+	      				<Image fluid={true} src={pic9} roundedCircle style={{paddingBottom:'5%'}}  />
+	      				<div style={{width:'100%',overflow:'hidden',padding:'5%',border:'2px solid #ebebeb'}}>
+							<div>
+								<i className="big book icon" style={{float:'left'}}></i>
+							</div>
+							<div>
+								<h2>Dylan House</h2>
+								BSc in Computational Mathematics
+							</div>
+							<div style={{paddingTop:'2%'}}>
+								<div>
+									<i className="big pencil icon" style={{float:'left'}}></i>
+								</div>
+								<div>
+									All level S.T.E.M Subjects
+								</div>
+							</div>
+						</div>
+	    			</Col>
+				</Row>
+				
 			</Container>
 		</div>
 
